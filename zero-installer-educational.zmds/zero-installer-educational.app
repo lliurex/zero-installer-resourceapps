@@ -1,0 +1,17 @@
+Name=Recursos educativos
+Name[es]=Recursos educativos
+Name[en]=Educational resources
+Name[qcv]=Recursos educatius
+Name[ca_ES]=Recursos educatius
+Comment=Select programs to install additional educational resources
+Comment[es]=Selecciona los programas para instalar recursos educativos adicionales
+Comment[qcv]=Selecciona els programes per a instal·lar recursos educatius addicionals
+Comment[ca_ES]=Selecciona els programes per a instal·lar recursos educatius addicionals
+Icon=zero-installer-educational
+Groups=sudo;admins;
+Category=resources
+ScriptPath=zero-installer-educational.zmd
+Using=pkexec
+Service=False
+Modal=True
+Locks=zero-installer-educational

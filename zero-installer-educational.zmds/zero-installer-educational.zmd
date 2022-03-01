@@ -1,0 +1,2 @@
+#!/bin/bash
+epi-gtk /usr/share/zero-installer-educational/zero-installer-educational.epi
