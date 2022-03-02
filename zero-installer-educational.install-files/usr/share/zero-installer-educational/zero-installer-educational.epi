@@ -3,7 +3,7 @@
 	"pkg_list": [
 		{"name":"simplayer","custom_name":"Simulator player","custom_icon":"simplayer.png","type":"apt"},
 		{"name":"simplayer-phet-activities","custom_name":"Phet activities for simplayer","custom_icon":"simplayer.png","type":"apt"},
-		{"name":"simplayer-circuit","custom_name":Electronic circuit simulator for simplayer","custom_icon":"simplayer.png","type":"apt"},
+		{"name":"simplayer-circuit","custom_name":"Electronic circuit simulator for simplayer","custom_icon":"simplayer.png","type":"apt"},
 		{"name":"simplayer-flash-activities","custom_name":"Flash activities for simplayer","custom_icon":"simplayer.png","type":"apt"},
 		{"name":"simplayer-myphysicslab-activities","custom_name":"Myphysicslab activities for simplayer","custom_icon":"simplayer.png","type":"apt"},
 		{"name":"kgeography","custom_name":"KGeography: geography learning aid for KDE","custom_icon":"kgeography.png","type":"apt"},
@@ -14,7 +14,7 @@
 		{"name":"kalzium","custom_name":"Kalzium: Periodic table of elements","custom_icon":"kalcium.png","type":"apt"},
 		{"name":"kmplot","custom_name":"KmPlot: Mathematical function plotter","custom_icon":"kmplot.png","type":"apt"},
 		{"name":"rocs","custom_name":"Rocs: Graph theory IDE","custom_icon":"rocs.png","type":"apt"},
-		{"name":"step","custom_name":"Step: Interactive physical simulator","custom_icon":"step.png","type":"apt"},
+		{"name":"step","custom_name":"Step: Interactive physical simulator","custom_icon":"step.png","type":"apt"}
 	], 
 	"repository": [
 		{"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
