@@ -1,4 +1,4 @@
-Name=Recursos educativos
+Name=educational
 Name[es]=Recursos educativos
 Name[en]=Educational resources
 Name[qcv]=Recursos educatius
