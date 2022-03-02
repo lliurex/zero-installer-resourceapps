@@ -28,11 +28,11 @@ echo PACKAGE_LIST=$PACKAGE_LIST
 case $ACTION in
     getStatus)
         echo "getStatus ......"
-        if [[ " ${PACKAGE_LIST[*]} " == *" simplayer "* ]]; then
-            #echo 0
-            #echo 1
-            #echo "Not found"
-            echo 
+        status=$(dpkg-query -W -f '${Status}' ${PACKAGE_LIST})
+        if [[ "$status" == "install ok installed" ]]; then
+            echo 0
+        else
+            echo 1
         fi
     ;;
         
