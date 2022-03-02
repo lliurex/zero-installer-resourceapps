@@ -1,135 +1,81 @@
 #!/bin/bash
-
 ACTION="$1"
-
 shift
-
 PACKAGE_LIST=$@
-
 
 # START Define variables
 DESTDOWNLOAD="/var/cache/epi-downloads"
-SIMULIDE_URL="https://mailfence.com/pub/docs/santigoro/web/SimulIDE_0.3.12/"
-SIMULIDE_FILE="SimulIDE_0.3.12-SR8_Lin64.tar.gz"
-SIMULIDE_DEST="/opt/SimulIDE_0.3.12-SR8_Lin64"
-INSTALL_PROGRAMS="/opt"
 # END Define Variables
 
+# simplayer
+# simplayer-phet-activitiestype
+# simplayer-circuit
+# simplayer-flash-activities
+# simplayer-myphysicslab-activities
+# kgeography
+# kbruch
+# kig
+# kalgebra
+# cantor
+# kalzium
+# kmplot
+# rocs
+# step
+
+echo ACTION=$ACTION
+echo PACKAGE_LIST=$PACKAGE_LIST
+
 case $ACTION in
+    getStatus)
+        echo "getStatus ......"
+        if [[ " ${PACKAGE_LIST[*]} " == *" simplayer "* ]]; then
+            #echo 0
+            #echo 1
+            #echo "Not found"
+        fi
+    ;;
+        
+    download)
+        echo "Downloading ......"
+        if [[ " ${PACKAGE_LIST[*]} " == *" simplayer "* ]]; then
+            echo "Downloading simplayer......"
+        fi
+    ;;
 
-	getStatus)
-			
-		#START SimulIDE
-			if [[ " ${PACKAGE_LIST[*]} " == *" simulide "* ]]; then
-				if [ -d $SIMULIDE_DEST ];then
-					echo 0
-				else
-					echo 1
-				fi
-				#statements
-			else
-        		echo "Not found"
-      		fi
-		#END SimulIDE
-	;;
-		
-	download)
+    preInstall)
+        echo "preInstall ......"
+    ;;
 
-		#START SimulIDE
-			if [[ " ${PACKAGE_LIST[*]} " == *" simulide "* ]]; then
-				echo "Downloading simulide......"
-				cd ${DESTDOWNLOAD}
-				if [ -s ${DESTDOWNLOAD}"/"${SIMULIDE_FILE} ]
-				then
-					rm -f ${DESTDOWNLOAD}"/"${SIMULIDE_FILE}
-				fi
-				
-				wget ${SIMULIDE_URL}${SIMULIDE_FILE}
-				
-				if ! [ -s ${DESTDOWNLOAD}"/"${SIMULIDE_FILE} ]
-				then	
-					exit 1
-				fi 
-			fi
-		#END SimulIDE
-			
-	;;
+    installPackage)
+        echo "installPackage ......"
+        if [[ " ${PACKAGE_LIST[*]} " == *" simplayer "* ]]; then
+            echo " * * Start Installing simplayer * * "
+            # apt install --install-recommends simplayer ... -y
+            echo " * * Installed simplayer * * "
+        elif [[ " ${PACKAGE_LIST[*]} " == *" simplayer-phet-activities "* ]]; then
+            echo "Installing simplayer-phet-activities ... please wait"
+            echo " * * Installed simplayer-phet-activities * * "
+        fi
+    ;;	
 
-	preInstall)
+    postInstall)		
+        echo "postInstall ......"
+    ;;	
 
-	;;
-
-	installPackage)
-
-		#START kicad eda
-			if [[ " ${PACKAGE_LIST[*]} " == *" kicad "* ]]; then
-				echo " * * Start Installing kicad * * "
-				apt install --install-recommends kicad kicad-demos -y
-				apt install kicad-locale-es kicad-doc-es -y
-				echo " * * Installed kicad * * "
-		#END kicad eda
-
-		#START SimulIDE
-			elif [[ " ${PACKAGE_LIST[*]} " == *" simulide "* ]]; then
-				cd $DESTDOWNLOAD
-				echo "Installing simulide... please wait"
-				tar -xvf $SIMULIDE_FILE -C $INSTALL_PROGRAMS
-				cp "/usr/share/zero-fp-electronica/simulide.desktop" "/usr/share/applications/"
-				echo " * * Installed simulide * * "
-			
-			fi
-		#END SimulIDE
-			
-	;;	
-
-	postInstall)		
-			
-	;;	
-
-	remove)
-
-		for ix in $PACKAGE_LIST	
-
-		do
-			#START kicad eda
-			if [[ " $ix " == *" kicad "* ]]; then
-				echo "Removing files from Kikad..."
-				apt remove kicad kicad-demos kicad-locale-es -y
-				apt remove kicad-doc-en kicad-footprints kicad-libraries kicad-packages3d kicad-symbols kicad-templates -y
-				echo " * * Finished Kikad Uninstall * *  "
-			#END kikad eda
-
-			#START SimulIDE
-			elif [[ " $ix " == *" simulide "* ]]; then
-				echo "Removing files from SimulIDE..."
-				if [ -d $SIMULIDE_DEST ]
-				then
-					rm -rf $SIMULIDE_DEST
-					rm "/usr/share/applications/simulide.desktop"
-				fi
-				echo " * * Finished * * "
-			#END SimulIDE
-
-
-			else
-				apt-get remove -y $ix
-
-				TEST=$( dpkg-query -s  $ix 2> /dev/null| grep Status | cut -d " " -f 4 )
-
-				if [ "$TEST" == 'installed' ];then
-
-					exit 1
-
-				fi
-				echo " * * Finished * * "
-			fi
-
-							
-
-		done		
-
-	;;	
-
+    remove)
+        echo "remove ....."
+        for ix in $PACKAGE_LIST; do
+            if [[ " $ix " == *" simplayer "* ]]; then
+                echo "Removing files from simplayer..."
+                echo " * * Finished simplayer Uninstall * *  "
+            elif [[ " $ix " == *" simplayer-phet-activities "* ]]; then
+                echo "Removing files from simplayer-phet-activities..."
+                echo " * * Finished simplayer-phet-activities Uninstall * * "
+            else
+                echo " * * Finished (other)* * "
+            fi
+        done		
+    ;;	
 esac
 
 exit 0
