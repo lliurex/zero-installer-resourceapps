@@ -1,7 +1,7 @@
 {
 	"type":"mix",
 	"pkg_list": [
-		{"name":"simplayer","custom_name":"Simulator player","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
+		{"name":"simplayer","custom_name":"Simplayer: Simulator player","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"simplayer-phet-activities","custom_name":"Phet activities for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"simplayer-circuit","custom_name":"Electronic circuit simulator for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"simplayer-flash-activities","custom_name":"Flash activities for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
@@ -11,7 +11,7 @@
 		{"name":"kig","custom_name":"Kig: interactive geometry tool","custom_icon":"kig.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"kalgebra","custom_name":"KAlgebra: algebraic graphing calculator","custom_icon":"kalgebra.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"cantor","custom_name":"Cantor: frontend to mathematical software","custom_icon":"cantor.png","type":"apt","addRepoKeys":false, "getStatus":true,"remove": true,"installPackage": true,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"octave","custom_name":"Powerful mathematics-oriented syntax with built-in 2D/3D plotting and visualization tools","custom_icon":"octave.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
+		{"name":"octave","custom_name":"Octave: Powerful mathematics-oriented syntax with built-in 2D/3D plotting and visualization tools","custom_icon":"octave.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"kalzium","custom_name":"Kalzium: Periodic table of elements","custom_icon":"kalcium.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"kmplot","custom_name":"KmPlot: Mathematical function plotter","custom_icon":"kmplot.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
 		{"name":"rocs","custom_name":"Rocs: Graph theory IDE","custom_icon":"rocs.png","type":"apt","addRepoKeys":false, "getStatus":false,"remove": true,"installPackage": false,"download":false,"preInstall":false,"postInstall":false},
