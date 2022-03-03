@@ -16,10 +16,12 @@ PACKAGE_LIST=$@
 # kig
 # kalgebra
 # cantor
+# octave
 # kalzium
 # kmplot
 # rocs
 # step
+
 status() {
     ret=$(dpkg-query -W -f '${Status}' "$@" 2>/dev/null)   
 }
