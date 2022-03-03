@@ -50,30 +50,34 @@ case $ACTION in
 
     postInstall)
         echo "postInstall phase ..."
-        if [ "${PACKAGE_LIST}" == "cantor" ];then
-            additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python"
-            for item in $additional; do
-                status $item
-                if [ "${ret}" != "install ok installed" ]; then
-                    apt-get install -y $item
-                    echo "INSTALLED $item"
-                fi
-            done
-        fi
+        for pkg in "${PACKAGE_LIST}"; do
+            if [ "${pkg}" == "cantor" ];then
+                additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python"
+                for item in $additional; do
+                    status $item
+                    if [ "${ret}" != "install ok installed" ]; then
+                        apt-get install -y $item
+                        echo "INSTALLED $item"
+                    fi
+                done
+            fi
+        done
     ;;	
 
     remove)
         echo "remove phase ..."
-        if [ "${PACKAGE_LIST}" == "cantor" ]; then
-            additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python cantor"
-            for item in $additional; do
-                status $item
-                if [ "${ret}" == "install ok installed" ]; then
-                    apt-get remove -y $item
-                    echo "REMOVED $item"
-                fi
-            done
-        fi
+        for pkg in "${PACKAGE_LIST}"; do
+            if [ "${pkg}" == "cantor" ]; then
+                additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python cantor"
+                for item in $additional; do
+                    status $item
+                    if [ "${ret}" == "install ok installed" ]; then
+                        apt-get remove -y $item
+                        echo "REMOVED $item"
+                    fi
+                done
+            fi
+        done
     ;;	
 esac
 exit 0
