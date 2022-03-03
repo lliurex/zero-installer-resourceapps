@@ -50,7 +50,7 @@ case $ACTION in
 
     postInstall)
         echo "postInstall phase ..."
-        for pkg in "${PACKAGE_LIST}"; do
+        for pkg in ${PACKAGE_LIST}; do
             if [ "${pkg}" == "cantor" ];then
                 additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python"
                 for item in $additional; do
@@ -60,13 +60,17 @@ case $ACTION in
                         echo "INSTALLED $item"
                     fi
                 done
+                status "cantor-backend-qalculate"
+                if [ "${ret}" == "install ok installed" ]; then
+                    apt-get remove -y cantor-backend-qalculate
+                fi
             fi
         done
     ;;	
 
     remove)
         echo "remove phase ..."
-        for pkg in "${PACKAGE_LIST}"; do
+        for pkg in ${PACKAGE_LIST}; do
             if [ "${pkg}" == "cantor" ]; then
                 additional="cantor-backend-kalgebra cantor-backend-octave cantor-backend-python cantor"
                 for item in $additional; do
