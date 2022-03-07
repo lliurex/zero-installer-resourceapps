@@ -1,0 +1,17 @@
+Name=util-media
+Name[es]=Útiles multimedia
+Name[en]=Multimedia utils
+Name[qcv]=Útils multimèdia
+Name[ca_ES]=Útils multimèdia
+Comment=Select programs to install additional multimedia utils
+Comment[es]=Selecciona los programas para instalar útiles multimedia
+Comment[qcv]=Selecciona els programes per a instal·lar útils multimèdia
+Comment[ca_ES]=Selecciona els programes per a instal·lar útils multimèdia
+Icon=zero-installer-util-media
+Groups=sudo;admins;
+Category=resources
+ScriptPath=zero-installer-util-media.zmd
+Using=pkexec
+Service=False
+Modal=True
+Locks=zero-installer-util-media
