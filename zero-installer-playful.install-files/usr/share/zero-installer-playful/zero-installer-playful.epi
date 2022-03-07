@@ -1,7 +1,7 @@
 {
     "type":"mix",
     "pkg_list": [
-        {"name":"openstereogram","custom_name":"Stereogram ("Magic Eye") generator with GUI","custom_icon":"openstereogram.png","type":"apt","key_store":"openstereogram","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"openstereogram","custom_name":"Stereogram (\"Magic Eye\") generator with GUI","custom_icon":"openstereogram.png","type":"apt","key_store":"openstereogram","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"khangman","custom_name":"Hangman word puzzle","custom_icon":"khangman.png","type":"apt","key_store":"khangman","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"gtkboard","custom_name":"Gtkboard: many board games in one program","custom_icon":"gtkboard.png","type":"apt","key_store":"gtkboard","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"kanagram","custom_name":"Kanagram: jumble word puzzle","custom_icon":"kanagram.png","type":"apt","key_store":"kanagram","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
