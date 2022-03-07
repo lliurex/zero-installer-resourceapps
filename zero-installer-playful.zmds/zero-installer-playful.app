@@ -1,0 +1,17 @@
+Name=playful
+Name[es]=Recursos lúdico-educativos
+Name[en]=Playful resources
+Name[qcv]=Recursos lúdic-educatius
+Name[ca_ES]=Recursos lúdic-educatius
+Comment=Select programs to install additional playful resources
+Comment[es]=Selecciona los programas para instalar recursos lúdico-educativos adicionales
+Comment[qcv]=Selecciona els programes per a instal·lar recursos lúdic-educatius addicionals
+Comment[ca_ES]=Selecciona els programes per a instal·lar recursos lúdic-educatius addicionals
+Icon=zero-installer-playful
+Groups=sudo;admins;
+Category=resources
+ScriptPath=zero-installer-educational.zmd
+Using=pkexec
+Service=False
+Modal=True
+Locks=zero-installer-playful

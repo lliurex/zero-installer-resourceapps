@@ -1,29 +1,29 @@
 {
-	"type":"mix",
-	"pkg_list": [
-		{"name":"simplayer","custom_name":"Simplayer: Simulator player","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"simplayer-phet-activities","custom_name":"Phet activities for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"simplayer-circuit","custom_name":"Electronic circuit simulator for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"simplayer-flash-activities","custom_name":"Flash activities for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"simplayer-myphysicslab-activities","custom_name":"Myphysicslab activities for simplayer","custom_icon":"simplayer.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kgeography","custom_name":"KGeography: geography learning aid for KDE","custom_icon":"kgeography.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kbruch","custom_name":"KBruch: fraction learning aid for KDE","custom_icon":"kbruch.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kig","custom_name":"Kig: interactive geometry tool","custom_icon":"kig.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kalgebra","custom_name":"KAlgebra: algebraic graphing calculator","custom_icon":"kalgebra.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"cantor","custom_name":"Cantor: frontend to mathematical software","custom_icon":"cantor.png","type":"apt","addRepoKeys":false,"getStatus":true,"remove":true,"installPackage":true,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"octave","custom_name":"Octave: Powerful mathematics-oriented syntax with built-in 2D/3D plotting and visualization tools","custom_icon":"octave.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kalzium","custom_name":"Kalzium: Periodic table of elements","custom_icon":"kalzium.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"kmplot","custom_name":"KmPlot: Mathematical function plotter","custom_icon":"kmplot.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"rocs","custom_name":"Rocs: Graph theory IDE","custom_icon":"rocs.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove": true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-		{"name":"step","custom_name":"Step: Interactive physical simulator.","custom_icon":"step.png","type":"apt","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
-	], 
-	"repository": [
-		{"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
-		{"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
-		{"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
-	], 
-	"script": {"name":"/usr/share/zero-installer-educational/zero-installer-educational_script", "remove":true,"download":true,"getStatus":true},
-	"zomando":"zero-installer-educational",
-	"custom_icon_path":"/usr/share/zero-installer-educational/",
-	"selection_enabled":{"active":true,"all_selected":false}
+    "type":"mix",
+    "pkg_list": [
+        {"name":"simplayer","custom_name":"Simplayer: Simulator player","custom_icon":"simplayer.png","type":"apt","key_store":"simplayer","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"simplayer-phet-activities","custom_name":"Phet activities for simplayer","custom_icon":"simplayer.png","type":"apt","key_store":"simplayer-phet-activities","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"simplayer-circuit","custom_name":"Electronic circuit simulator for simplayer","custom_icon":"simplayer.png","type":"apt","key_store":"simplayer-circuit","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"simplayer-flash-activities","custom_name":"Flash activities for simplayer","custom_icon":"simplayer.png","type":"apt","key_store":"simplayer-flash-activities","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"simplayer-myphysicslab-activities","custom_name":"Myphysicslab activities for simplayer","custom_icon":"simplayer.png","type":"apt","key_store":"simplayer-myphysicslab-activities","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kgeography","custom_name":"KGeography: geography learning aid for KDE","custom_icon":"kgeography.png","type":"apt","key_store":"kgeography","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kbruch","custom_name":"KBruch: fraction learning aid for KDE","custom_icon":"kbruch.png","type":"apt","key_store":"kbruch","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kig","custom_name":"Kig: interactive geometry tool","custom_icon":"kig.png","type":"apt","key_store":"kig","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kalgebra","custom_name":"KAlgebra: algebraic graphing calculator","custom_icon":"kalgebra.png","type":"apt","key_store":"kalgebra","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kalzium","custom_name":"Kalzium: Periodic table of elements","custom_icon":"kalzium.png","type":"apt","key_store":"kalzium","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"cantor","custom_name":"Cantor: frontend to mathematical software","custom_icon":"cantor.png","type":"apt","key_store":"cantor","addRepoKeys":false,"getStatus":true,"remove":true,"installPackage":true,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"octave","custom_name":"Octave: Powerful mathematics-oriented syntax with built-in 2D/3D plotting and visualization tools","custom_icon":"octave.png","type":"apt","key_store":"octave","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kmplot","custom_name":"KmPlot: Mathematical function plotter","custom_icon":"kmplot.png","type":"apt","key_store":"kmplot","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"rocs","custom_name":"Rocs: Graph theory IDE","custom_icon":"rocs.png","type":"apt","key_store":"rocs","addRepoKeys":false,"getStatus":false,"remove": true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"step","custom_name":"Step: Interactive physical simulator.","custom_icon":"step.png","type":"apt","key_store":"step","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
+    ],
+    "repository": [
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
+    ],
+    "script": {"name":"/usr/share/zero-installer-educational/zero-installer-educational_script", "remove":true,"download":true,"getStatus":true},
+    "zomando":"zero-installer-educational",
+    "custom_icon_path":"/usr/share/zero-installer-educational/",
+    "selection_enabled":{"active":true,"all_selected":false}
 }
