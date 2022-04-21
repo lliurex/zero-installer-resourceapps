@@ -1,15 +1,23 @@
 {
     "type":"mix",
     "pkg_list": [
-
+        {"name":"tupi","custom_name":"Tupi: 2D Animation design and authoring tool","custom_icon":"tupi.png","type":"apt","key_store":"tupi","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"posterazor","custom_name":"Posterazor: splits an image across multiple pages for assembly into a poster","custom_icon":"posterazor.png","type":"apt","key_store":"posterazor","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"imagination","custom_name":"Imagination: DVD slide show maker","custom_icon":"imagination.png","type":"apt","key_store":"imagination","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"handbrake","custom_name":"Handbrake: versatile DVD ripper and video transcoder","custom_icon":"handbrake.png","type":"apt","key_store":"handbrake","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"enmarcado-kde-servicemenu","custom_name":"Enmarcado: Realiza marcos decorados para imprimir a partir de imágenes desde el menú contextual","custom_icon":"enmarcado.png","type":"apt","key_store":"enmarcado","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"fotoalbum-kde-servicemenu","custom_name":"Fotoalbum: Realiza collage de imagenes para imprimir desde el menú contextual","custom_icon":"fotoalbum.png","type":"apt","key_store":"fotoalbum","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"marcapaginas-kde-servicemenu","custom_name":"Marcapaginas: Realiza marcapáginas para imprimir a partir de imágenes desde el menú contextual","custom_icon":"marcapaginas.png","type":"apt","key_store":"marcapaginas","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"kde-service-menu-reimage","custom_name":"ReImage: Manipula imágenes y metadatos desde el menú contextual","custom_icon":"reimage.png","type":"apt","key_store":"kde-service-menu-reimage","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"ffconversor-kde-servicemenu","custom_name":"FFconversor: Realiza cambios de formato de ficheros multimedia desde el menú contextual","custom_icon":"ffconversor.png","type":"apt","key_store":"ffconversor","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
     ],
     "repository": [
         {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
         {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
         {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
     ],
-    "script": {"name":"/usr/share/zero-installer-playful/zero-installer-util-classroom_script", "remove":true,"download":true,"getStatus":true},
-    "zomando":"zero-installer-util-classroom",
-    "custom_icon_path":"/usr/share/zero-installer-util-classroom/",
+    "script": {"name":"/usr/share/zero-installer-util-media/zero-installer-util-media_script", "remove":true,"download":true,"getStatus":true},
+    "zomando":"zero-installer-util-media",
+    "custom_icon_path":"/usr/share/zero-installer-util-media/",
     "selection_enabled":{"active":true,"all_selected":false}
 }
