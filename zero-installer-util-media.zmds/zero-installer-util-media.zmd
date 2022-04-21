@@ -1,2 +1,2 @@
 #!/bin/bash
-epi-gtk /usr/share/zero-installer-playful/zero-installer-util-media.epi
+epi-gtk /usr/share/zero-installer-util-media/zero-installer-util-media.epi
