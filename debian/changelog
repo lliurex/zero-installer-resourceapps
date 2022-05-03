@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.2) focal; urgency=medium
+
+  * Add alea into util-classroom
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 03 May 2022 11:33:22 +0200
+
 zero-installer-resourceapps (0.1) focal; urgency=medium
 
   * Initial Release.
