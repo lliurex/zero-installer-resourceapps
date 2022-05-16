@@ -80,6 +80,8 @@ case $ACTION in
                         echo "REMOVED $item"
                     fi
                 done
+            else
+                apt-get remove -y $pkg
             fi
         done
     ;;
