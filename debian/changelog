@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.3) focal; urgency=medium
+
+  * Fix uninstallers
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 16 May 2022 11:42:05 +0200
+
 zero-installer-resourceapps (0.2) focal; urgency=medium
 
   * Add alea into util-classroom
