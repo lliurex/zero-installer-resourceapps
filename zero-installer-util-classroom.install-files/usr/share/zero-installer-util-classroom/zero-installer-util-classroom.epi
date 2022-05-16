@@ -1,9 +1,9 @@
 {
     "type":"mix",
     "pkg_list": [
-        {"name":"pintascreen","custom_name":"Pintascreen: Pinta, señala, marca, escribe en la pantalla","custom_icon":"pintascreen.png","type":"apt","key_store":"pintascreen","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
+        {"name":"pintascreen-qt5","custom_name":"Pintascreen: Pinta, señala, marca, escribe en la pantalla","custom_icon":"pintascreen.png","type":"apt","key_store":"pintascreen-qt5","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"alea","custom_name":"Alea: Presenta en pantalla imágenes o valores introducidos (3+4,dos mas uno...)","custom_icon":"alea.png","type":"apt","key_store":"alea","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-        {"name":"vigilia","custom_name":"Vigilia: Sistema de vigilancia en clase","custom_icon":"vigilia.png","type":"apt","key_store":"vigilia","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
+        {"name":"vigilia-qt5","custom_name":"Vigilia: Sistema de vigilancia en clase","custom_icon":"vigilia.png","type":"apt","key_store":"vigilia-qt5","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
         {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
