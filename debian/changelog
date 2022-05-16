@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.4) focal; urgency=medium
+
+  * Switch to gambas *-qt5 packages to avoid dependency problems
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 16 May 2022 12:24:18 +0200
+
 zero-installer-resourceapps (0.3) focal; urgency=medium
 
   * Fix uninstallers
