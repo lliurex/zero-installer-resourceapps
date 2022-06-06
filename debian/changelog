@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.4.2) focal; urgency=medium
+
+  * Updated banners
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 06 Jun 2022 14:15:43 +0200
+
 zero-installer-resourceapps (0.4.1) focal; urgency=medium
 
   * Change util-media to multimedia section
