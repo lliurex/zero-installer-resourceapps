@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.4.3) lliurex22; urgency=medium
+
+  * Modify permissions
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 15 Jun 2022 19:16:13 +0200
+
 zero-installer-resourceapps (0.4.2) focal; urgency=medium
 
   * Updated banners
