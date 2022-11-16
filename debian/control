@@ -1,0 +1,21 @@
+Source: zero-installer-resourceapps
+Section: utils
+Priority: optional
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Build-Depends: debhelper-compat (= 12), zero-dev, llxsrchelper
+Standards-Version: 4.4.1
+Homepage: https://github.com/lliurex/zero-installer-resourceapps
+Vcs-Git: https://github.com/lliurex/zero-installer-resourceapps
+
+Package: zero-installer-educational
+Architecture: all
+Depends: ${misc:Depends}
+Description: Educational resources & apps
+ Installer for additional educational resources & apps
+
+Package: zero-installer-playful
+Architecture: all
+Depends: ${misc:Depends}
+Description: Payful-educational apps
+ Installer for additional playful-educational apps
+ 
