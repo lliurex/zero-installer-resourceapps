@@ -3,7 +3,6 @@
     "pkg_list": [
         {"name":"openstereogram","custom_name":"Stereogram (\"Magic Eye\") generator with GUI","custom_icon":"openstereogram.png","type":"apt","key_store":"openstereogram","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"khangman","custom_name":"Hangman word puzzle","custom_icon":"khangman.png","type":"apt","key_store":"khangman","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
-        {"name":"gtkboard","custom_name":"Gtkboard: many board games in one program","custom_icon":"gtkboard.png","type":"apt","key_store":"gtkboard","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"kanagram","custom_name":"Kanagram: jumble word puzzle","custom_icon":"kanagram.png","type":"apt","key_store":"kanagram","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"numptyphysics","custom_name":"Numptyphysics: crayon based physics puzzle game","custom_icon":"numptyphysics.png","type":"apt","key_store":"numptyphysics","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"pysiogame","custom_name":"Pysiogame: educational activity pack for kids","custom_icon":"pysiogame.png","type":"apt","key_store":"pysiogame","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
@@ -16,9 +15,9 @@
         {"name":"minuet","custom_name":"Minuet: KDE Software for Music Education","custom_icon":"minuet.png","type":"apt","key_store":"minuet","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
-        {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu bionic-security main restricted universe multiverse"}
     ],
     "script": {"name":"/usr/share/zero-installer-playful/zero-installer-playful_script", "remove":true,"download":true,"getStatus":true},
     "zomando":"zero-installer-playful",
