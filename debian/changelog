@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.4.3-lliurex19) bionic; urgency=medium
+
+  * Backported from focal (LliureX 21)
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 16 Nov 2022 13:28:05 +0100
+
 zero-installer-resourceapps (0.4.3) lliurex22; urgency=medium
 
   * Modify permissions
