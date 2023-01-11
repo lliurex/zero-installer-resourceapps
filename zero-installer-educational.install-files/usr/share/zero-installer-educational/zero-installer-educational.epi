@@ -18,9 +18,9 @@
         {"name":"step","custom_name":"Step: Interactive physical simulator.","custom_icon":"step.png","type":"apt","key_store":"step","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse"},
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse"},
-        {"url":"deb http://security.ubuntu.com/ubuntu jammy-security main restricted universe multiverse"}
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
     ],
     "script": {"name":"/usr/share/zero-installer-educational/zero-installer-educational_script", "remove":true,"download":true,"getStatus":true},
     "zomando":"zero-installer-educational",

@@ -16,9 +16,9 @@
         {"name":"minuet","custom_name":"Minuet: KDE Software for Music Education","custom_icon":"minuet.png","type":"apt","key_store":"minuet","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse"},
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse"},
-        {"url":"deb http://security.ubuntu.com/ubuntu jammy-security main restricted universe multiverse"}
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
     ],
     "script": {"name":"/usr/share/zero-installer-playful/zero-installer-playful_script", "remove":true,"download":true,"getStatus":true},
     "zomando":"zero-installer-playful",

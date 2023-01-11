@@ -6,9 +6,9 @@
         {"name":"vigilia-qt5","custom_name":"Vigilia: Sistema de vigilancia en clase","custom_icon":"vigilia.png","type":"apt","key_store":"vigilia-qt5","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse"},
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse"},
-        {"url":"deb http://security.ubuntu.com/ubuntu jammy-security main restricted universe multiverse"}
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse"}
     ],
     "script": {"name":"/usr/share/zero-installer-util-classroom/zero-installer-util-classroom_script", "remove":true,"download":true,"getStatus":true},
     "zomando":"zero-installer-util-classroom",
