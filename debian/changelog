@@ -1,0 +1,41 @@
+zero-installer-resourceapps (0.4.3) lliurex22; urgency=medium
+
+  * Modify permissions
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 15 Jun 2022 19:16:13 +0200
+
+zero-installer-resourceapps (0.4.2) focal; urgency=medium
+
+  * Updated banners
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 06 Jun 2022 14:15:43 +0200
+
+zero-installer-resourceapps (0.4.1) focal; urgency=medium
+
+  * Change util-media to multimedia section
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 31 May 2022 12:00:48 +0200
+
+zero-installer-resourceapps (0.4) focal; urgency=medium
+
+  * Switch to gambas *-qt5 packages to avoid dependency problems
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 16 May 2022 12:24:18 +0200
+
+zero-installer-resourceapps (0.3) focal; urgency=medium
+
+  * Fix uninstallers
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 16 May 2022 11:42:05 +0200
+
+zero-installer-resourceapps (0.2) focal; urgency=medium
+
+  * Add alea into util-classroom
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 03 May 2022 11:33:22 +0200
+
+zero-installer-resourceapps (0.1) focal; urgency=medium
+
+  * Initial Release.
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 01 Mar 2022 14:59:54 +0100
