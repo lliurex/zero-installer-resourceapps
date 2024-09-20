@@ -1,3 +1,9 @@
+zero-installer-resourceapps (0.24.3) noble; urgency=medium
+
+  * Initial release for Noble
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 20 Sep 2024 11:58:58 +0200
+
 zero-installer-resourceapps (0.14.3) jammy; urgency=medium
 
   * Initial release for Jammy
