@@ -12,9 +12,9 @@
         {"name":"ffconversor-kde-servicemenu","custom_name":"FFconversor: Realiza cambios de formato de ficheros multimedia desde el menú contextual","custom_icon":"ffconversor.png","type":"apt","key_store":"ffconversor","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false}
     ],
     "repository": [
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse"},
-        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse"},
-        {"url":"deb http://security.ubuntu.com/ubuntu jammy-security main restricted universe multiverse"}
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ noble main restricted universe multiverse"},
+        {"url":"deb http://es.archive.ubuntu.com/ubuntu/ noble-updates main restricted universe multiverse"},
+        {"url":"deb http://security.ubuntu.com/ubuntu noble-security main restricted universe multiverse"}
     ],
     "script": {"name":"/usr/share/zero-installer-util-media/zero-installer-util-media_script", "remove":true,"download":true,"getStatus":true},
     "zomando":"zero-installer-util-media",
