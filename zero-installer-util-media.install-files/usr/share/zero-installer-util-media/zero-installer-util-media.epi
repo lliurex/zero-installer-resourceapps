@@ -1,7 +1,6 @@
 {
     "type":"mix",
     "pkg_list": [
-        {"name":"tupi","custom_name":"Tupi: 2D Animation design and authoring tool","custom_icon":"tupi.png","type":"apt","key_store":"tupi","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"posterazor","custom_name":"Posterazor: splits an image across multiple pages for assembly into a poster","custom_icon":"posterazor.png","type":"apt","key_store":"posterazor","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"imagination","custom_name":"Imagination: DVD slide show maker","custom_icon":"imagination2.png","type":"apt","key_store":"imagination","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
         {"name":"handbrake","custom_name":"Handbrake: versatile DVD ripper and video transcoder","custom_icon":"handbrake.png","type":"apt","key_store":"handbrake","addRepoKeys":false,"getStatus":false,"remove":true,"installPackage":false,"download":false,"preInstall":false,"postInstall":false},
