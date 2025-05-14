@@ -1,2 +1,2 @@
 #!/bin/bash
-epi-gtk /usr/share/zero-installer-playful/zero-installer-playful.epi
+epi-gtk /usr/share/zero-installer-playful/zero-installer-playful.epi $1
